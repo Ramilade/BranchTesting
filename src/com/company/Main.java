@@ -7,4 +7,5 @@ public class Main {
     }
     Dog dog = new Dog("Helmute", "barf");
     Cat cat = new Cat("Lotti", "Pudr");
+
 }
