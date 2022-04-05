@@ -9,4 +9,9 @@ public class Dog extends Animal {
     this.speak = speak;
 
   }
+
+  @Override
+  public boolean foodType() {
+    return false;
+  }
 }

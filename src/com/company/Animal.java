@@ -1,6 +1,6 @@
 package com.company;
 
-public class Animal {
+public abstract class Animal {
 
   public String name;
 
@@ -8,4 +8,13 @@ public class Animal {
 
     this.name = name;
   }
-}
+
+  public void makeSound(){
+
+  }
+
+  public abstract boolean foodType();
+
+
+  }
+
